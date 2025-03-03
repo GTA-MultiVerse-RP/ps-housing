@@ -82,7 +82,7 @@ Config.Apartments = {
                 label = "Outside",
             },
         },
-        shell = "Apartment Furnished",
+        shell = "Standard Motel",
     },
 
     ["South Rockford Drive"] = {
@@ -94,7 +94,7 @@ Config.Apartments = {
                 label = "Outside",
             },
         },
-        shell = "Apartment Furnished",
+        shell = "Standard Motel",
     },
 
     ['Morningwood Blvd'] = {
@@ -106,7 +106,7 @@ Config.Apartments = {
                 label = "Outside",
             },
         },
-        shell = "Apartment Furnished",
+        shell = "Standard Motel",
     },
 
     ['Tinsel Towers'] = {
@@ -118,7 +118,7 @@ Config.Apartments = {
                 label = "Outside",
             },
         },
-        shell = "Apartment Furnished",
+        shell = "Standard Motel",
     },
 
     ['Fantastic Plaza'] = {
@@ -130,7 +130,7 @@ Config.Apartments = {
                 label = "Outside",
             },
         },
-        shell = "Apartment Furnished",
+        shell = "Standard Motel",
     },
 
     ---ipl
@@ -184,8 +184,8 @@ Config.Shells = {
         hash = `standardmotel_shell`,
         doorOffset = { x = -0.5, y = -2.3, z = 0.0, h = 90.0, width = 1.5 },
         stash = {
-            maxweight = 100000,
-            slots = 12,
+            maxweight = 200000,
+            slots = 10,
         },
         imgs = {
             {
@@ -200,7 +200,7 @@ Config.Shells = {
         hash = `modernhotel_shell`,
         doorOffset = { x = 4.98, y = 4.35, z = 0.0, h = 179.79, width = 2.0  },
         stash = {
-            maxweight = 150000,
+            maxweight = 500000,
             slots = 20,
         },
         imgs = {
@@ -220,8 +220,8 @@ Config.Shells = {
         hash = `furnitured_midapart`,
         doorOffset = { x = 1.44, y = -10.25, z = 0.0, h = 0.0, width = 1.5  },
         stash = {
-            maxweight = 200000,
-            slots = 25,
+            maxweight = 800000,
+            slots = 30,
         },
         imgs = {
             {
@@ -256,8 +256,8 @@ Config.Shells = {
         hash = `shell_v16mid`,
         doorOffset = { x = 1.34, y = -14.36, z = -0.5, h = 354.08, width = 1.5  },
         stash = {
-            maxweight = 200000,
-            slots = 25,
+            maxweight = 800000,
+            slots = 30,
         },
         imgs = {
             {
@@ -288,8 +288,8 @@ Config.Shells = {
         hash = `shell_v16low`,
         doorOffset = { x = 4.69, y = -6.5, z = -1.0, h = 358.50, width = 1.5  },
         stash = {
-            maxweight = 200000,
-            slots = 25,
+            maxweight = 800000,
+            slots = 30,
         },
         imgs = {
             {
@@ -312,8 +312,8 @@ Config.Shells = {
         hash = `shell_garagem`,
         doorOffset = { x = 14.0, y = 1.7, z = -0.76, h = 88.49, width = 2.0  },
         stash = {
-            maxweight = 500000,
-            slots = 50,
+            maxweight = 1200000,
+            slots = 40,
         },
         imgs = {
             {
@@ -332,7 +332,7 @@ Config.Shells = {
         hash = `shell_office1`,
         doorOffset = { x = 1.2, y = 4.90, z = -0.73, h = 180.0, width = 2.0  },
         stash = {
-            maxweight = 250000,
+            maxweight = 300000,
             slots = 30,
         },
         imgs = {
@@ -352,8 +352,8 @@ Config.Shells = {
         hash = `shell_store1`,
         doorOffset = { x = -2.69, y = -4.56, z = -0.62, h = 1.91, width = 2.0  },
         stash = {
-            maxweight = 500000,
-            slots = 50,
+            maxweight = 250000,
+            slots = 30,
         },
         imgs = {
             {
@@ -372,8 +372,8 @@ Config.Shells = {
         hash = `shell_warehouse1`,
         doorOffset = { x = -8.96, y = 0.11, z = -0.95, h = 270.64, width = 2.0  },
         stash = {
-            maxweight = 1000000,
-            slots = 100,
+            maxweight = 150000,
+            slots = 10,
         },
         imgs = {
             {
@@ -392,8 +392,8 @@ Config.Shells = {
         hash = `container_shell`,
         doorOffset = { x = 0.05, y = -5.7, z = -0.22, h = 1.7, width = 2.2  },
         stash = {
-            maxweight = 500000,
-            slots = 100,
+            maxweight = 400000,
+            slots = 40,
         },
         imgs = {
             {
@@ -408,8 +408,8 @@ Config.Shells = {
         hash = `shell_michael`,
         doorOffset = { x = -9.6, y = 5.63, z = -4.07, h = 268.55, width = 2.0  },
         stash = {
-            maxweight = 300000,
-            slots = 50,
+            maxweight = 8000000,
+            slots = 60,
         },
         imgs = {
             {
@@ -456,8 +456,8 @@ Config.Shells = {
         hash = `shell_frankaunt`,
         doorOffset = { x = -0.34, y = -5.97, z = -0.57, h = 357.23, width = 2.0  },
         stash = {
-            maxweight = 200000,
-            slots = 50,
+            maxweight = 1800000,
+            slots = 40,
         },
         imgs = {
             {
@@ -496,8 +496,8 @@ Config.Shells = {
         hash = `shell_ranch`,
         doorOffset = { x = -1.23, y = -5.54, z = -1.1, h = 272.21, width = 2.0  },
         stash = {
-            maxweight = 500000,
-            slots = 50,
+            maxweight = 1500000,
+            slots = 35,
         },
         imgs = {
             {
@@ -528,8 +528,8 @@ Config.Shells = {
         hash = `shell_lester`,
         doorOffset = { x = -1.61, y = -6.02, z = -0.37, h = 357.7, width = 2.0  },
         stash = {
-            maxweight = 15000,
-            slots = 20,
+            maxweight = 200000,
+            slots = 10,
         },
         imgs = {
             {
@@ -552,8 +552,8 @@ Config.Shells = {
         hash = `shell_trevor`,
         doorOffset = { x = 0.2, y = -3.82, z = -0.41, h = 358.4, width = 2.0  },
         stash = {
-            maxweight = 10000,
-            slots = 12,
+            maxweight = 800000,
+            slots = 30,
         },
         imgs = {
             {
@@ -579,6 +579,21 @@ Config.Shells = {
             {
                 url = "https://files.fivemerr.com/images/2c5625ed-af05-49f3-a7ca-256fef131988.webp",
                 label = "Room 2",
+            },
+        },
+    },
+    ["Lev Apartment"] = {
+        label = "Lev Apartment",
+        hash = `lev_apartment_shell`,
+        doorOffset = { x = -0.460083, y = -2.334961, z = -1.524574, h = 271.055664, width = 2.0 },
+        stash = {
+            maxweight = 200000, 
+            slots = 10,
+        },
+        imgs = {
+            {
+                url = "https://media.discordapp.net/attachments/1075836266005938216/1135668239083503646/image.png",
+                label = "Entrance and Bedroom",
             },
         },
     },
@@ -637,10 +652,14 @@ Config.FurnitureTypes = {
 
 Config.Furnitures = {
     {
-        category = "Prerequisites",
+        category = "Wardrobe",
         items = {
-            { ["object"] = "v_res_tre_storagebox", ["price"] = 0, ["label"] = "Storage Unit", ["type"] = "storage", ["max"] = 2 },
-            { ["object"] = "v_res_tre_wardrobe", ["price"] = 0, ["label"] = "Wardrobe", ["type"] = "clothing", ["max"] = 2 },
+            { ["object"] = "v_res_tre_wardrobe", ["price"] = 2500, ["label"] = "Wardrobe Unit",  ["type"] = "clothing", ["max"] = 5 },
+            { ["object"] = "v_res_m_armoire", ["price"] = 2500, ["label"] = "Armoire Unit", ["type"] = "clothing", ["max"] = 5 },
+            { ["object"] = "v_res_tre_wardrobe", ["price"] = 2500, ["label"] = "Wardrobe", ["type"] = "clothing", ["max"] = 5 },
+            { ["object"] = "v_ilev_frnkwarddr1", ["price"] = 500, ["label"] = "Cupboard franklin", ["type"] = "clothing", ["max"] = 5 },
+            { ["object"] = "prop_coathook_01", ["price"] = 100, ["label"] = "Coat rack", ["type"] = "clothing", ["max"] = 5 },
+            { ["object"] = "bkr_prop_biker_garage_locker_01", ["price"] = 750, ["label"] = "Biker Locker" ,["type"] = "clothing", ["max"] = 5},
         }
     },
 
@@ -791,63 +810,64 @@ Config.Furnitures = {
     {
         category = "Storage",
         items = {
-            { ["object"] = "v_res_cabinet", ["price"] = 2500, ["label"] = "Cabinet Large" },
-            { ["object"] = "v_res_d_dressingtable", ["price"] = 2500, ["label"] = "Dressing Table" },
-            { ["object"] = "v_res_d_sideunit", ["price"] = 2500, ["label"] = "Side Unit" },
-            { ["object"] = "v_res_fh_sidebrddine", ["price"] = 2500, ["label"] = "Side Unit" },
-            { ["object"] = "v_res_fh_sidebrdlngb", ["price"] = 2500, ["label"] = "Side Unit" },
-            { ["object"] = "v_res_mbbedtable", ["price"] = 2500, ["label"] = "Bed Unit" },
-            { ["object"] = "v_res_j_tvstand", ["price"] = 2500, ["label"] = "Tv Unit" },
-            { ["object"] = "v_res_mbdresser", ["price"] = 2500, ["label"] = "Dresser Unit" },
-            { ["object"] = "v_res_mbottoman", ["price"] = 2500, ["label"] = "Bottoman Unit" },
-            { ["object"] = "v_res_mconsolemod", ["price"] = 2500, ["label"] = "Console Unit" },
-            { ["object"] = "v_res_mcupboard", ["price"] = 2500, ["label"] = "Cupboard Unit" },
-            { ["object"] = "v_res_mdchest", ["price"] = 2500, ["label"] = "Chest Unit" },
-            { ["object"] = "v_res_msoncabinet", ["price"] = 2500, ["label"] = "Mason Unit" },
-            { ["object"] = "v_res_m_armoire", ["price"] = 2500, ["label"] = "Armoire Unit" },
-            { ["object"] = "v_res_m_sidetable", ["price"] = 2500, ["label"] = "Side Unit" },
-            { ["object"] = "v_res_son_desk", ["price"] = 2500, ["label"] = "Desk Unit" },
-            { ["object"] = "v_res_tre_bedsidetable", ["price"] = 2500, ["label"] = "Side Unit" },
-            { ["object"] = "v_res_tre_bedsidetableb", ["price"] = 2500, ["label"] = "Side Unit 2" },
-            { ["object"] = "v_res_tre_smallbookshelf", ["price"] = 2500, ["label"] = "Book Unit" },
-            { ["object"] = "v_res_tre_storageunit", ["price"] = 2500, ["label"] = "Storage Unit" },
-            { ["object"] = "v_res_tre_wardrobe", ["price"] = 2500, ["label"] = "Wardrobe Unit" },
-            { ["object"] = "v_res_tre_wdunitscuz", ["price"] = 2500, ["label"] = "Wood Unit" },
-            { ["object"] = "prop_devin_box_closed", ["price"] = 100, ["label"] = "Bean Bag 1" },
-            { ["object"] = "prop_mil_crate_01", ["price"] = 100, ["label"] = "Mil Crate 1" },
-            { ["object"] = "prop_mil_crate_02", ["price"] = 100, ["label"] = "Mil Crate 2" },
-            { ["object"] = "prop_ld_int_safe_01", ["price"] = 1100, ["label"] = "Safe" },
-            { ["object"] = "prop_toolchest_05", ["price"] = 5000, ["label"] = "Crafting Bench" },
-            { ["object"] = "v_corp_filecablow", ["price"] = 500, ["label"] = "Filing cabinet Low" },
-            { ["object"] = "v_corp_filecabtall", ["price"] = 500, ["label"] = "Filing cabinet High" },
-            { ["object"] = "apa_mp_h_str_shelffloorm_02", ["price"] = 500, ["label"] = "Large modern cupboard" },
-            { ["object"] = "v_ilev_frnkwarddr1", ["price"] = 500, ["label"] = "Cupboard franklin" },
-            { ["object"] = "prop_coathook_01", ["price"] = 100, ["label"] = "Coat rack" },
-            { ["object"] = "v_corp_lowcabdark01", ["price"] = 500, ["label"] = "Filing cabinetLow black" },
-            { ["object"] = "v_corp_tallcabdark01", ["price"] = 500, ["label"] = "Filing cabinet High black" },
-            { ["object"] = "v_corp_cabshelves01", ["price"] = 1000, ["label"] = "Filing cabinet black" },
-            { ["object"] = "v_corp_offshelf", ["price"] = 1000, ["label"] = "Filing cabinet groot" },
-            { ["object"] = "v_61_lng_mesh_unitc", ["price"] = 500, ["label"] = "Bookcase white" },
-            { ["object"] = "ba_wardrobe", ["price"] = 500, ["label"] = "kledingkast" },
-            { ["object"] = "apa_mp_h_str_sideboardl_06", ["price"] = 750, ["label"] = "Cupboard  modern" },
-            { ["object"] = "apa_mp_h_str_sideboardl_09", ["price"] = 750, ["label"] = "Cupboard  modern 2" },
-            { ["object"] = "apa_mp_h_str_shelfwallm_01", ["price"] = 750, ["label"] = "Bookcase 2" },
-            { ["object"] = "apa_mp_h_str_sideboardl_11", ["price"] = 750, ["label"] = "Cupboard  modern 3" },
-            { ["object"] = "imp_prop_impexp_parts_rack_03a", ["price"] = 750, ["label"] = "car parts" },
-            { ["object"] = "imp_prop_impexp_parts_rack_04a", ["price"] = 750, ["label"] = "car parts 2" },
-            { ["object"] = "imp_prop_impexp_parts_rack_05a", ["price"] = 750, ["label"] = "car parts 3" },
-            { ["object"] = "apa_mp_h_bed_chestdrawer_02", ["price"] = 750, ["label"] = "chest of drawers" },
-            { ["object"] = "hei_heist_bed_chestdrawer_04", ["price"] = 750, ["label"] = "chest of drawers 2" },
-            { ["object"] = "prop_rub_cabinet", ["price"] = 50, ["label"] = "rusted filing cabinet" },
-            { ["object"] = "prop_tv_cabinet_03", ["price"] = 750, ["label"] = "tv little cupboard" },
-            { ["object"] = "prop_tv_cabinet_04", ["price"] = 750, ["label"] = "tv little cupboard 2" },
-            { ["object"] = "prop_tv_cabinet_05", ["price"] = 750, ["label"] = "tv little cupboard 3" },
-            { ["object"] = "apa_mp_h_str_shelffreel_01", ["price"] = 750, ["label"] = "ikea closet" },
-            { ["object"] = "apa_mp_h_str_sideboardl_13", ["price"] = 750, ["label"] = "cabinet modern 4" },
-            { ["object"] = "apa_mp_h_str_sideboardl_14", ["price"] = 750, ["label"] = "cabinet modern 5" },
-            { ["object"] = "apa_mp_h_str_sideboardm_02", ["price"] = 750, ["label"] = "cabinet modern 6" },
-            { ["object"] = "bkr_prop_biker_garage_locker_01", ["price"] = 750, ["label"] = "Biker Locker" },
-            { ["object"] = "gr_prop_gr_bench_04b", ["price"] = 750, ["label"] = "Biker Bench" },
+                       { ["object"] = "v_res_tre_storagebox", ["price"] = 2500, ["label"] = "Storage Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_cabinet", ["price"] = 2500, ["label"] = "Cabinet Large", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_d_dressingtable", ["price"] = 2500, ["label"] = "Dressing Table", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_d_sideunit", ["price"] = 2500, ["label"] = "Side Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_fh_sidebrddine", ["price"] = 2500, ["label"] = "Side Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_fh_sidebrdlngb", ["price"] = 2500, ["label"] = "Side Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mbbedtable", ["price"] = 2500, ["label"] = "Bed Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_j_tvstand", ["price"] = 2500, ["label"] = "Tv Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mbdresser", ["price"] = 2500, ["label"] = "Dresser Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mbottoman", ["price"] = 2500, ["label"] = "Bottoman Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mconsolemod", ["price"] = 2500, ["label"] = "Console Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mcupboard", ["price"] = 2500, ["label"] = "Cupboard Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_mdchest", ["price"] = 2500, ["label"] = "Chest Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_msoncabinet", ["price"] = 2500, ["label"] = "Mason Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_m_armoire", ["price"] = 2500, ["label"] = "Armoire Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_m_sidetable", ["price"] = 2500, ["label"] = "Side Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_son_desk", ["price"] = 2500, ["label"] = "Desk Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_tre_bedsidetable", ["price"] = 2500, ["label"] = "Side Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_tre_bedsidetableb", ["price"] = 2500, ["label"] = "Side Unit 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_tre_smallbookshelf", ["price"] = 2500, ["label"] = "Book Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_tre_storageunit", ["price"] = 2500, ["label"] = "Storage Unit", ["type"] = "storage", ["max"] = 10 },
+--            { ["object"] = "v_res_tre_wardrobe", ["price"] = 2500, ["label"] = "Wardrobe Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_res_tre_wdunitscuz", ["price"] = 2500, ["label"] = "Wood Unit", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_devin_box_closed", ["price"] = 100, ["label"] = "Bean Bag 1", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_mil_crate_01", ["price"] = 100, ["label"] = "Mil Crate 1", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_mil_crate_02", ["price"] = 100, ["label"] = "Mil Crate 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_ld_int_safe_01", ["price"] = 1100, ["label"] = "Safe", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_toolchest_05", ["price"] = 5000, ["label"] = "Crafting Bench", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_filecablow", ["price"] = 500, ["label"] = "Filing cabinet Low", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_filecabtall", ["price"] = 500, ["label"] = "Filing cabinet High", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_shelffloorm_02", ["price"] = 500, ["label"] = "Large modern cupboard", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_ilev_frnkwarddr1", ["price"] = 500, ["label"] = "Cupboard franklin", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_coathook_01", ["price"] = 100, ["label"] = "Coat rack", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_lowcabdark01", ["price"] = 500, ["label"] = "Filing cabinetLow black", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_tallcabdark01", ["price"] = 500, ["label"] = "Filing cabinet High black", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_cabshelves01", ["price"] = 1000, ["label"] = "Filing cabinet black", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "v_corp_offshelf", ["price"] = 1000, ["label"] = "Filing cabinet groot", ["type"] = "storage", ["max"] = 10 },
+--            { ["object"] = "v_61_lng_mesh_unitc", ["price"] = 500, ["label"] = "Bookcase white", ["type"] = "storage", ["max"] = 10 },
+--            { ["object"] = "ba_wardrobe", ["price"] = 500, ["label"] = "kledingkast", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardl_06", ["price"] = 750, ["label"] = "Cupboard  modern", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardl_09", ["price"] = 750, ["label"] = "Cupboard  modern 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_shelfwallm_01", ["price"] = 750, ["label"] = "Bookcase 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardl_11", ["price"] = 750, ["label"] = "Cupboard  modern 3", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "imp_prop_impexp_parts_rack_03a", ["price"] = 750, ["label"] = "car parts", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "imp_prop_impexp_parts_rack_04a", ["price"] = 750, ["label"] = "car parts 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "imp_prop_impexp_parts_rack_05a", ["price"] = 750, ["label"] = "car parts 3", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_bed_chestdrawer_02", ["price"] = 750, ["label"] = "chest of drawers", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "hei_heist_bed_chestdrawer_04", ["price"] = 750, ["label"] = "chest of drawers 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_rub_cabinet", ["price"] = 50, ["label"] = "rusted filing cabinet", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_tv_cabinet_03", ["price"] = 750, ["label"] = "tv little cupboard", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_tv_cabinet_04", ["price"] = 750, ["label"] = "tv little cupboard 2", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "prop_tv_cabinet_05", ["price"] = 750, ["label"] = "tv little cupboard 3", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_shelffreel_01", ["price"] = 750, ["label"] = "ikea closet", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardl_13", ["price"] = 750, ["label"] = "cabinet modern 4", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardl_14", ["price"] = 750, ["label"] = "cabinet modern 5", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "apa_mp_h_str_sideboardm_02", ["price"] = 750, ["label"] = "cabinet modern 6", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "bkr_prop_biker_garage_locker_01", ["price"] = 750, ["label"] = "Biker Locker", ["type"] = "storage", ["max"] = 10 },
+            { ["object"] = "gr_prop_gr_bench_04b", ["price"] = 750, ["label"] = "Biker Bench", ["type"] = "storage", ["max"] = 10 },
         }
     },
 
