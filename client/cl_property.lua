@@ -258,47 +258,55 @@ end
 function Property:RegisterGarageZone()
     if not next(self.propertyData.garage_data) then return end
 
-    if not (self.has_access or self.owner) or not self.owner then
+    if not (self.has_access or self.owner) then
         return
     end
 
     local garageData = self.propertyData.garage_data
-    local label = self.propertyData.street .. self.property_id .. " Garage"
+    local garageName = string.format("property-%s-garage", self.property_id)
 
-    local isQbx = GetResourceState('qbx_garages') == 'started'
-    local coords = vec4(garageData.x, garageData.y, garageData.z, garageData.h)
+    local data = {
+        takeVehicle = {
+            x = garageData.x,
+            y = garageData.y,
+            z = garageData.z,
+            w = garageData.h
+        },
+        type = "house",
+        label = self.propertyData.street .. self.property_id .. " Garage",
+    }
 
-    if isQbx then
-        TriggerServerEvent('ps-housing:server:qbxRegisterHouse', self.property_id)
-    else
-        TriggerEvent("qb-garages:client:addHouseGarage", self.property_id, {
-            takeVehicle = {
-                x = garageData.x,
-                y = garageData.y,
-                z = garageData.z,
-                w = garageData.h
-            },
-            type = "house",
-            label = label,
-        })
-    end
-    if not isQbx then
-        self.garageZone = lib.zones.box({
-            coords = coords.xyz,
-            size = vector3(garageData.length + 5.0, garageData.width + 5.0, 3.5),
-            rotation = coords.w,
-            debug = Config.DebugMode,
-            onEnter = function()
-                TriggerEvent('qb-garages:client:setHouseGarage', self.property_id, true)
-            end,
-        })
-    end
+    self.garageZone = lib.zones.box({
+        coords = vec3(garageData.x, garageData.y, garageData.z),
+        size = vector3(garageData.length + 5.0, garageData.width + 5.0, 3.5),
+        rotation = garageData.h,
+        debug = Config.DebugMode,
+        onEnter = function()
+            if IsPedInAnyVehicle(PlayerPedId(), true) then
+                lib.showTextUI('Press [E] to put the vehicle in the garage')
+            else 
+                lib.showTextUI('Press [E] to open the garage')
+            end
+        end,
+        inside = function()
+            if IsControlJustReleased(0, 38) then
+                Wait(100)
+                inGarage = false
+                if IsPedInAnyVehicle(PlayerPedId(), true) then
+                    TriggerEvent('jg-advancedgarages:client:store-vehicle', garageName, "car")
+                else
+                    TriggerEvent('jg-advancedgarages:client:open-garage', garageName, "car", vec4(garageData.x, garageData.y, garageData.z, garageData.h))
+                end
+            end
+        end,
+        onExit = function()
+            lib.hideTextUI()
+        end,
+    })
 end
 
 function Property:UnregisterGarageZone()
     if not self.garageZone then return end
-
-    TriggerEvent("qb-garages:client:removeHouseGarage", self.property_id)
 
     self.garageZone:remove()
     self.garageZone = nil
